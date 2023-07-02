@@ -1,0 +1,417 @@
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+  }
+  
+.menu li {
+    display: inline-block;
+  }
+  
+.menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #080808;
+  }
+.primeiro-titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120px;
+    text-align: center;
+    color: #f8a34d;
+    text-shadow: 2px 2px 0 #0f0d00;
+  }
+.segundo-titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #f8a34d;
+    text-shadow: 2px 2px 0 #0f0d00;
+  }
+.texto-com-fundo {
+    background-image: url(https://img.freepik.com/fotos-premium/roupas-femininas-de-outono-em-cabides-no-quarto-branco_176873-17272.jpg?w=2000);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center; 
+    max-width: 100%;
+    height: 500px;
+    margin-bottom: 0
+  }
+  .color-stripe {
+    height: 40px;
+    background-color: #f8a34d
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+  }
+  
+  .background-image {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    z-index: -1; /* Foi usado para colocar a imagem uma camada abaixo do conteúdo */
+    opacity: 0.3; 
+    background-image: url('https://s2-redeglobo.glbimg.com/eVTzvxC_meLJrVdvVg2bR-Gs7Wo=/0x0:1000x667/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/f/b/fsLR58T12q3UqWUYJ9RA/whatsapp-image-2020-12-11-at-15.51.22.jpeg');
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+  
+  .content {
+    width: 60%;
+    padding: 10px;
+  }
+
+  .titulo {
+    margin-bottom: 10px;
+    margin-left: 60px;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+  }
+  ul, li {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1; /* Para coloca o conteúdo acima do plano de fundo */
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  iframe {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-top: 75px;
+  }
+  .color-stripe2 {
+    margin-top: 0;
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: #f8a34d;
+    margin-bottom: 0;
+  }
+  .content2 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 0px;
+     
+  } 
+  .setor {
+    display: flex;
+    background-color: rgb(241, 209, 166);
+  }
+
+  .image-setor {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+  }
+  .image-setor img {
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover;
+  }
+  .color-stripe3 {
+    margin-top: 0;
+    clear: both;
+    margin-top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #f8a34d;
+    margin-bottom: 0;
+  }
+  .content3 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+  } 
+  a {
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+  }
+  .caixa-externa {
+    background-color: #f8d6d6;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+  .caixa-interna {
+    background-color: #c5bebe;
+    padding: 10px;
+}
+
+  .caixa-interna p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+  .caixa-interna nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+  .caixa-interna nav ul a {
+    display: inline;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.piscar {
+  animation: piscar 2s infinite;
+}
+
+@keyframes piscar {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.localização {
+  margin-top: 0;
+  padding: 10px;
+  background-color: #f8a34d;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.localização h3 {
+  font-size: 25px;
+}
+.mapa {
+  background-color: c;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.mapa iframe {
+  width: 1450px ;
+  height: 450px;
+  border: #080808;
+  margin-top: 0;
+}
+.footer {
+  margin-top: 0;
+  background-color: #f8a34d;
+  justify-content: left;
+  height: 50px;
+}
+.footer p {
+  text-align: left;
+  margin-top: 0;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+/* inicio do css da pagina Acervo */
+
+.texto-com-fundo-acervo {
+  background-image: url(https://s3.amazonaws.com/www.ypedia.com.br/wp-content/uploads/2021/11/18163535/roupas-de-malha_ypedia-1024x683.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center; 
+  max-width: 100%;
+  height: 500px;
+  margin-bottom: 0;
+}
+
+.titulo-acervo {
+  text-align: center;
+}
+
+.titulo-acervo h1 {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 150px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+.roupa-feminina {
+  background-color: #f8a34d; 
+  text-align: center;
+  padding: 10px; 
+}
+
+.roupa-feminina h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.modelos-feminino .grupo {
+  margin-bottom: 0; /* Espaçamento entre os grupos de imagens */
+  background-color: rgb(241, 209, 166);
+}
+
+.modelos-feminino .grupo .item {
+  display: inline-block;
+  text-align: center;
+  margin-right: 30px; /* Para definir o espaçamento entre as imagens */
+}
+
+.modelos-feminino .grupo:last-child .item {
+  margin-right: 0; /* Para remove o espaçamento à direita para o último item do grupo */
+}
+
+.modelos-feminino .preco {
+  margin-top: 5px; /* Para definir o espaçamento entre a imagem e o parágrafo */
+}
+
+.roupa-masculina {
+  background-color: #f8a34d; 
+  text-align: center;
+  padding: 10px; 
+}
+
+.roupa-masculina h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.modelos-masculino .grupo {
+  margin-bottom: 0;
+  background-color: rgb(241, 209, 166);
+}
+
+.modelos-masculino .grupo .item {
+  display: inline-block;
+  text-align: center;
+  margin-right: 30px; 
+}
+
+.modelos-masculino .grupo:last-child .item {
+  margin-right: 0;
+}
+
+.modelos-masculino .preco {
+  margin-top: 5px; 
+}
+.roupa-criança {
+  background-color: #f8a34d; 
+  text-align: center;
+  padding: 10px; 
+}
+
+.roupa-criança h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.modelos-infantil .grupo {
+  margin-bottom: 0;
+  background-color: rgb(241, 209, 166);
+}
+
+.modelos-infantil .grupo .item {
+  display: inline-block;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.modelos-infantil .grupo:last-child .item {
+  margin-right: 0;
+}
+
+.modelos-infantil .preco {
+  margin-top: 5px;
+}
+/* Inicio do css pagina cadastro*/
+
+.texto-com-fundo-cadastro {
+  background-image: url(https://media.istockphoto.com/id/865596864/pt/foto/woman-using-tablet-and-holding-black-friday-shopping-bag-while-standing-on-the-stairs-with-the.jpg?s=612x612&w=0&k=20&c=gBn3O9_T5U8VzL8EfVoEVLsfVSvtL0RFOF4q5VPqH5g=);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center; 
+  max-width: 100%;
+  height: 500px;
+  margin-bottom: 0;
+}
+
+.titulo-cadastro {
+  text-align: center;
+}
+
+.titulo-cadastro h1 {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 150px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+} 
+.color-stripe4 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #f8a34d;
+  font-size: 30px;
+  margin-bottom: 0; 
+}
+.container {
+  margin-top: 0;
+  padding: 10pxs;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 0;
+  font-size: 20px;
+  background-color: rgb(241, 209, 166);;
+}
+.form-container {
+  background-color: #b1adad;
+  border: 1px solid black;
+  padding: 50px;
+}
+.container form {
+  width: 300px;
+}
+.container form div {
+  margin-bottom: 10px;
+}
+.container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.titulo-cadastro {
+  text-align: center;
+}
